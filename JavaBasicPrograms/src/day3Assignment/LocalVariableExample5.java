@@ -1,0 +1,30 @@
+package day3Assignment;
+
+public class LocalVariableExample5 {
+
+	public static void main(String[] args) {
+
+		  System.out.println("Program start");
+			//25+15=40
+			int num1=25;
+			int num2=15;
+			int result=num1+num2;
+			
+			System.out.println("number 1 is:"+num1);
+			System.out.println("number 2 is:"+num2);
+
+
+			System.out.println("Addition of two number is:"+num1+num2);//it will perform concatination operation
+			System.out.println("Addition of two number is:"+(num1+num2));//it will perform addition operation
+
+			System.out.println("Program end");
+
+			
+			
+			}
+	
+	
+	
+	
+
+}
